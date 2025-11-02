@@ -1,0 +1,14 @@
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+html, body { padding: 0; margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+main { max-width: 900px; margin: 0 auto; padding: 24px; }
+.input { width: 100%; padding: 12px 14px; border-radius: 10px; border: 1px solid #ccc; outline: none; }
+.button { padding: 10px 14px; border-radius: 10px; border: 1px solid #333; background: #111; color: #fff; cursor: pointer; }
+.card { border: 1px solid #e5e7eb; border-radius: 14px; overflow: hidden; }
+.card-header { padding: 16px; border-bottom: 1px solid #e5e7eb; background: #fafafa; }
+.card-body { padding: 16px; display: grid; grid-template-columns: 120px 1fr; gap: 16px; align-items: start; }
+.card img { width: 120px; height: 120px; object-fit: cover; border-radius: 8px; }
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+.link { color: #2563eb; text-decoration: none; }
+.link:hover { text-decoration: underline; }
+footer { margin-top: 32px; opacity: 0.7; font-size: 12px; }
